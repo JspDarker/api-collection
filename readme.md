@@ -1,6 +1,6 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-# API RESTful 
+# API RESTful Basic Command
 
 ```bash
 DB::connection()->getPdo();                         # check connect to db
@@ -18,4 +18,10 @@ php artisan migrate --seed  -->  default migrate & seed first time
 $ tip phpstorm https://phpstorm.tips/tips/page/4/    
 
 $   php artisan make:controller BookController --resource    
+```
+
+# Clean Command
+
+```bash
+
 ```
