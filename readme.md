@@ -23,5 +23,14 @@ $   php artisan make:controller BookController --resource
 # Clean Command
 
 ```bash
+$ php artisan make:model People -mf
+$ php artisan make:model Article -crmf # cr resource controller
 
+$ php artisan make:factory MainFacetory
+$ php artisan make:seeder ManagerSeeder
+
+// for required
+$table->foreign('user_id')
+      ->references('id')->on('users')
+      ->onDelete('cascade');
 ```
