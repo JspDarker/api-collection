@@ -12,7 +12,7 @@
     <!-- Styles -->
 </head>
 <body>
-<div class="container-fluid mb-5">
+<div class="mb-5">
     @yield('content')
 </div>
 <div id="root"></div>
